@@ -14,7 +14,7 @@ export class BookDetailsComponent implements OnInit {
 
   constructor() { }
 
-  getRating(num: number) {
+  getRating(num: number): Array<number> {
     return new Array(num);
   }
 
